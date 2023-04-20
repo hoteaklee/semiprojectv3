@@ -8,8 +8,21 @@
     <link rel="stylesheet" href="/css/bs5/bootstrap.min.css">
 </head>
 <body>
-<h1>Hello, world!</h1>
-<button type="button" class="btn btn-success"> 부트스트랩</button>
+
+    <div class="container">
+        <header class="row">
+            <div class="col"><h1>lorem Ipsum</h1></div>
+            <div class="col text-end" ><button type="button" class="btn-danger">로그인</button></div>
+            <div class="col"><button type="button" class="btn-primary">회원가입</button></div>
+        </header>
+        <nav></nav>
+        <div id="main"></div>
+        <footer></footer>
+    </div>
+
+
+
+
 <script src="/js/bs5/bootstrap.bundle.min.js"></script>
 </body>
 </html>
